@@ -438,20 +438,20 @@ export const projects = [
     title: "MyRingByMe",
     // date: "Jan 2023 - Mar 2023",
     description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
-    image:"./ring.ng",
+    image:"https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
         tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "mobile learning",
       github: "https://github.com/manjureddy97",
-    webapp: "./ring.png",
-    member: [
-      {
-        name: "Manju Reddy",
-        img: "./HeroImage.jpeg",
-        linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
-          github: "https://github.com/manjureddy97",
-      },
+    webapp: "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
+    // member: [
+    //   {
+    //     name: "Manju Reddy",
+    //     img: "./HeroImage.jpeg",
+    //     linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
+    //       github: "https://github.com/manjureddy97",
+    //   },
     
-    ],
+    // ],
   },
   {
     id: 2,
@@ -463,15 +463,15 @@ export const projects = [
     category: "machine learning",
       github: "https://github.com/manjureddy97",
     webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
-    member: [
-      {
-        name: "Manju Reddy",
-        img: "./HeroImage.jpeg",
-        linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
-          github: "https://github.com/manjureddy97",
-      },
+    // member: [
+    //   {
+    //     name: "Manju Reddy",
+    //     img: "./HeroImage.jpeg",
+    //     linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
+    //       github: "https://github.com/manjureddy97",
+    //   },
     
-    ],
+    // ],
   },
   {
     id: 3,
@@ -564,18 +564,18 @@ export const projects = [
      github: "https://github.com/manjureddy97",
     webapp:   "./sosin.png",
   },
-  {
-    id: 7,
-    title: "Quiz App",
-    date: "Dec 2020 - Jan 2021",
-    description:
-      "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:"https://play.google.com/store/apps/details?id=com.eterno.shortvideos",  
-      tags: ["React Native", "Node Js", "Google Analitics",],
-    category: "android app",
-     github: "https://github.com/manjureddy97",
-    webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
-  },
+  // {
+  //   id: 7,
+  //   title: "Quiz App",
+  //   date: "Dec 2020 - Jan 2021",
+  //   description:
+  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+  //   image:"https://play.google.com/store/apps/details?id=com.eterno.shortvideos",  
+  //     tags: ["React Native", "Node Js", "Google Analitics",],
+  //   category: "android app",
+  //    github: "https://github.com/manjureddy97",
+  //   webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
+  // },
   {
     id: 8,
     title: "Snapyfy",
