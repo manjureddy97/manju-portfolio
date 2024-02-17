@@ -399,35 +399,35 @@ export const experiences = [
   },
 ];
 
-export const education = [
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
-  },
-];
+// export const education = [
+//   {
+//     id: 0,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+//     school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
+//     date: "Oct 2021 - Sep 2025",
+//     grade: "8.41 CGPA",
+//     desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+//     degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+//   },
+//   {
+//     id: 1,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2019 - Apr 2025",
+//     grade: "88.2%",
+//     desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
+//     degree: "ISC(XII), Science with Computer",
+//   },
+//   {
+//     id: 2,
+//     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+//     school: "Methodist School, Dankuni",
+//     date: "Apr 2017 - Apr 2019",
+//     grade: "92.3%",
+//     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
+//     degree: "ICSC(X), Science with Computer",
+//   },
+// ];
 
 export const projects = [
  
@@ -436,17 +436,37 @@ export const projects = [
   {
     id: 2,
     title: "MyRingByMe",
-    date: "Jan 2023 - Mar 2023",
+    // date: "Jan 2023 - Mar 2023",
     description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
     image:"./ring.ng",
         tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
-    category: "machine learning",
+    category: "mobile learning",
     // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
     webapp: "./ring.png",
     member: [
       {
         name: "Manju Reddy",
-        // img: "../images/HeroImage.jpeg",
+        img: "./HeroImage.jpeg",
+        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        // github: "https://github.com/rishavchanda/",
+      },
+    
+    ],
+  },
+  {
+    id: 2,
+    title: "Josh",
+    // date: "Jan 2023 - Mar 2023",
+    description:" Josh is a short video app that lets you watch, share, and create fun and engaging videos and discover your Mojo. ",
+    image:"https://entrackr.com/storage/2020/07/josh-1.jpg",
+        tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
+    category: "machine learning",
+    // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
+    member: [
+      {
+        name: "Manju Reddy",
+        img: "./HeroImage.jpeg",
         // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
         // github: "https://github.com/rishavchanda/",
       },
@@ -456,7 +476,7 @@ export const projects = [
   {
     id: 3,
     title: "Stybizz",
-    date: "Dec 2021 - Apr 2022",
+    // date: "Dec 2021 - Apr 2022",
     description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",  
       image:"./stybizz.png",  
      tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
@@ -467,7 +487,7 @@ export const projects = [
   {
     id: 10,
     title: "MCQ Moc Test",
-    date: "Jun 2022 - Jul 2023",
+    // date: "Jun 2022 - Jul 2023",
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
