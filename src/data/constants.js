@@ -506,7 +506,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:"The proposed web application is tailored for cryptocurrency enthusiasts and investors. Users have access to comprehensive coin management tools, an assortment of counting utilities, in-depth statistics, and various other functionalities that streamline the process of cryptocurrency investments",
     image:
-      "/crypto.png",
+      "https://drive.google.com/file/d/1AVVfkhrm39qsC3UlItmhQEFB1D01HI3W/view?usp=sharing",
     tags: [
       "Docker",
       "AWS",
@@ -594,7 +594,7 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:"This a multi-vendor application is a digital marketplace where multiple independent vendors can sell their products or services. It offers vendors a dedicated dashboard to manage listings, orders, and customer interactions. Customers can browse products from various vendors, compare prices, and make purchases securely. Key features include order management, secure payment processing, and ratings/reviews for vendors. Admins have control over the platform, ensuring smooth operations and security measures.",
     image:
-      "/ecom.png",
+      "https://drive.google.com/file/d/1F6NqzWbbjJSgiJV2gM1z2wwHrMK69jQ-/view?usp=sharing",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
