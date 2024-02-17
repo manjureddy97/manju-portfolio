@@ -441,14 +441,14 @@ export const projects = [
     image:"./ring.ng",
         tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "mobile learning",
-    // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+      github: "https://github.com/manjureddy97",
     webapp: "./ring.png",
     member: [
       {
         name: "Manju Reddy",
         img: "./HeroImage.jpeg",
-        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        // github: "https://github.com/rishavchanda/",
+        linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
+          github: "https://github.com/manjureddy97",
       },
     
     ],
@@ -461,14 +461,14 @@ export const projects = [
     image:"https://entrackr.com/storage/2020/07/josh-1.jpg",
         tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "machine learning",
-    // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+      github: "https://github.com/manjureddy97",
     webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
     member: [
       {
         name: "Manju Reddy",
         img: "./HeroImage.jpeg",
-        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        // github: "https://github.com/rishavchanda/",
+        linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
+          github: "https://github.com/manjureddy97",
       },
     
     ],
@@ -481,7 +481,7 @@ export const projects = [
       image:"./stybizz.png",  
      tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "android app",
-    // github: "https://github.com/rishavchanda/Buckoid-Android-App",
+     github: "https://github.com/manjureddy97",
     webapp: "./stybizz.png", 
   },
   {
@@ -494,7 +494,7 @@ export const projects = [
       "./sosinm.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
-    // github: "https://github.com/rishavchanda/Job-finder-App",
+     github: "https://github.com/manjureddy97",
     webapp: "https://play.google.com/store/apps/details?id=com.mcq2",
   },
   {
@@ -506,7 +506,7 @@ export const projects = [
     image:"./chat1.png",
     tags: ["React Native", "Socket.io", "MongoDb", "Node JS"],
     category: "Mobile app",
-    // github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+     github: "https://github.com/manjureddy97",
     webapp: "./chat2.png",
   },
   {
@@ -517,7 +517,7 @@ export const projects = [
        image:"./farm.png",
     tags: ["React Native ", "Local Storage", "AWS Auth", "Node JS"],
     category: "Mobile app",
-    // github: "https://github.com/rishavchanda/Todo-Web-App",
+    github: "https://github.com/manjureddy97",
     webapp: "./farm.png",
   },
     {
@@ -541,7 +541,7 @@ export const projects = [
       "Redux",
     ],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Trackify",
+      github: "https://github.com/manjureddy97",
     webapp: "./crypto.png",
   },
 
@@ -561,7 +561,7 @@ export const projects = [
       "NodeMailer",
     ],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Project-Management-App",
+     github: "https://github.com/manjureddy97",
     webapp:   "./sosin.png",
   },
   {
@@ -573,7 +573,7 @@ export const projects = [
     image:"https://play.google.com/store/apps/details?id=com.eterno.shortvideos",  
       tags: ["React Native", "Node Js", "Google Analitics",],
     category: "android app",
-    // github: "https://github.com/rishavchanda/Quiz-Earn",
+     github: "https://github.com/manjureddy97",
     webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
   },
   {
@@ -584,7 +584,7 @@ export const projects = [
       "./snapyfy.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
-    // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+      github: "https://github.com/manjureddy97",
     webapp: "./snapyfy.png",
   },
    {
@@ -604,7 +604,7 @@ export const projects = [
       "React Flow",
     ],
     category: "web app",
-    // github: "https://github.com/rishavchanda/DecisionHub",
+      github: "https://github.com/manjureddy97",
     webapp: "https://65ce56e3c327a31fad198000--comadmin.netlify.app/",
   },
   {
@@ -616,14 +616,14 @@ export const projects = [
       "./ecom.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Podstream",
+     github: "https://github.com/manjureddy97",
     webapp: "./ecom.png",
     member: [
       {
         name: "Manju Reddy",
-        // img: "../images/HeroImage.jpeg",
-        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        // github: "https://github.com/rishavchanda/",
+        img: "./HeroImage.jpeg",
+        linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
+         github: "https://github.com/manjureddy97",
       },
     
     ],
@@ -637,7 +637,7 @@ export const projects = [
     image:"./show.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Breaking-Bad",
+     github: "https://github.com/manjureddy97",
     webapp: "./show.png",
   },
   
