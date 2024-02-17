@@ -430,90 +430,9 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 11,
-    title: "EcommerceAdmin",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      "It's a comprehensive solution that meets specific requirements. The application boasts user-friendly features and seamless functionality to enhance user experience. It's designed to be scalable, allowing for future expansions and updates as needed. ",
-    image:
-      "/ecommers.png",
-    tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
-    ],
-    category: "web app",
-    // github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://65ce56e3c327a31fad198000--comadmin.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Crypto",
-    date: "Jun 2023 - Jul 2023",
-    description:"The proposed web application is tailored for cryptocurrency enthusiasts and investors. Users have access to comprehensive coin management tools, an assortment of counting utilities, in-depth statistics, and various other functionalities that streamline the process of cryptocurrency investments",
-    image:
-      "/crypto.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    // github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://drive.google.com/file/d/1AVVfkhrm39qsC3UlItmhQEFB1D01HI3W/view?usp=sharing",
-  },
-  {
-    id: 0,
-    title: "Ecommers",
-    date: "Apr 2023 - May 2023",
-    description:"This a multi-vendor application is a digital marketplace where multiple independent vendors can sell their products or services. It offers vendors a dedicated dashboard to manage listings, orders, and customer interactions. Customers can browse products from various vendors, compare prices, and make purchases securely. Key features include order management, secure payment processing, and ratings/reviews for vendors. Admins have control over the platform, ensuring smooth operations and security measures.",
-    image:
-      "/ecom.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    // github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://drive.google.com/file/d/1F6NqzWbbjJSgiJV2gM1z2wwHrMK69jQ-/view?usp=sharing",
-    member: [
-      {
-        name: "Manju Reddy",
-        // img: "../images/HeroImage.jpeg",
-        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        // github: "https://github.com/rishavchanda/",
-      },
-    
-    ],
-  },
-  {
-    id: 1,
-    title: "Sosin",
-    date: "Oct 2022 - Jan 2023",
-    description:"SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals acefully.",
-        image:
-      "/sosin.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
-    category: "web app",
-    // github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://sosinias.com/",
-  },
+ 
+  
+
   {
     id: 2,
     title: "MyRingByMe",
@@ -581,17 +500,49 @@ export const projects = [
     // github: "https://github.com/rishavchanda/Todo-Web-App",
     webapp: "/farm.png",
   },
-  {
-    id: 6,
-    title: "Tv Shows",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:"/show.png",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+    {
+    id: 9,
+    title: "Crypto",
+    date: "Jun 2023 - Jul 2023",
+    description:"The proposed web application is tailored for cryptocurrency enthusiasts and investors. Users have access to comprehensive coin management tools, an assortment of counting utilities, in-depth statistics, and various other functionalities that streamline the process of cryptocurrency investments",
+    image:
+      "/crypto.png",
+    tags: [
+      "Docker",
+      "AWS",
+      "DuckDNS",
+      "Eslint",
+      "Husky",
+      "CI/CD",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+    ],
     category: "web app",
-    // github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "/show.png",
+    // github: "https://github.com/rishavchanda/Trackify",
+    webapp: "https://drive.google.com/file/d/1AVVfkhrm39qsC3UlItmhQEFB1D01HI3W/view?usp=sharing",
+  },
+
+    {
+    id: 1,
+    title: "Sosin",
+    date: "Oct 2022 - Jan 2023",
+    description:"SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals acefully.",
+        image:
+      "/sosin.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "NodeMailer",
+    ],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Project-Management-App",
+    webapp: "/sosin.png",
   },
   {
     id: 7,
@@ -617,6 +568,61 @@ export const projects = [
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp: "/snapyfy.png",
   },
+   {
+    id: 11,
+    title: "EcommerceAdmin",
+    date: "Jan 2024 - Dec 2023",
+    description:
+      "It's a comprehensive solution that meets specific requirements. The application boasts user-friendly features and seamless functionality to enhance user experience. It's designed to be scalable, allowing for future expansions and updates as needed. ",
+    image:
+      "/ecommers.png",
+    tags: [
+      "React Js",
+      "PostgressSQL",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "React Flow",
+    ],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/DecisionHub",
+    webapp: "https://65ce56e3c327a31fad198000--comadmin.netlify.app/",
+  },
+  {
+    id: 0,
+    title: "Ecommers",
+    date: "Apr 2023 - May 2023",
+    description:"This a multi-vendor application is a digital marketplace where multiple independent vendors can sell their products or services. It offers vendors a dedicated dashboard to manage listings, orders, and customer interactions. Customers can browse products from various vendors, compare prices, and make purchases securely. Key features include order management, secure payment processing, and ratings/reviews for vendors. Admins have control over the platform, ensuring smooth operations and security measures.",
+    image:
+      "/ecom.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Podstream",
+    webapp: "https://drive.google.com/file/d/1F6NqzWbbjJSgiJV2gM1z2wwHrMK69jQ-/view?usp=sharing",
+    member: [
+      {
+        name: "Manju Reddy",
+        // img: "../images/HeroImage.jpeg",
+        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        // github: "https://github.com/rishavchanda/",
+      },
+    
+    ],
+  },
+    {
+    id: 6,
+    title: "Tv Shows",
+    date: "Jun 2021",
+    description:
+      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
+    image:"/show.png",
+    tags: ["React Js", "API", "Axios", "Node JS"],
+    category: "web app",
+    // github: "https://github.com/rishavchanda/Breaking-Bad",
+    webapp: "/show.png",
+  },
+  
+
 ];
 
 export const TimeLineData = [
