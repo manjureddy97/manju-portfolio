@@ -439,11 +439,11 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
     image:
-      "/ring.png",
+     "../images/ring.png",
     tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "/ring.png",
+    webapp: "../images/ring.png",
     member: [
       {
         name: "Manju Reddy",
@@ -458,11 +458,12 @@ export const projects = [
     id: 3,
     title: "Stybizz",
     date: "Dec 2021 - Apr 2022",
-    description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",    image:"/stybizz.png",  
+    description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",  
+      image:"../images/stybizz.png",  
      tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "android app",
     // github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "/stybizz.png", 
+    webapp: "../images/stybizz.png", 
   },
   {
     id: 10,
@@ -471,11 +472,11 @@ export const projects = [
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
-      "/sosinm.png",
+      "../images/sosinm.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "/sosinm.png",
+    webapp: "../images/sosinm.png",
   },
   {
     id: 4,
@@ -483,22 +484,22 @@ export const projects = [
     date: "Jul 2021",
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:"/chat1.png",
+    image:"../images/chat1.png",
     tags: ["React Native", "Socket.io", "MongoDb", "Node JS"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "/chat2.png",
+    webapp: "../images/chat2.png",
   },
   {
     id: 5,
     title: "Farm Home",
     date: "Jun 2021",
     description:"Streamlining the Farm Stay Experience with a Custom Application. Our solution not only streamlined the booking process, but it also provided an opportunity for people to enjoy the natural setting and ambiance of a farm while taking a break from their everyday routines. With the deployment of this application, our client was able to cater to a new market segment and increase their revenue stream.We are proud to have provided our client with a solution that not only met their needs but exceeded their expectations. With our expertise in web and mobile development, we were able to deliver a platform that is easy to use, reliable and scalable.", 
-       image:"/farm.png",
+       image:"../images/farm.png",
     tags: ["React Native ", "Local Storage", "AWS Auth", "Node JS"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "/farm.png",
+    webapp: "../images/farm.png",
   },
     {
     id: 9,
@@ -531,7 +532,7 @@ export const projects = [
     date: "Oct 2022 - Jan 2023",
     description:"SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals acefully.",
         image:
-      "/sosin.png",
+      "../images/sosin.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -542,7 +543,7 @@ export const projects = [
     ],
     category: "web app",
     // github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "/sosin.png",
+    webapp: "../images/sosin.png",
   },
   {
     id: 7,
@@ -562,11 +563,11 @@ export const projects = [
     title: "Snapyfy",
     date: "Jan 2021",
     description:"A Media-Sharing Platform that Keeps Track of Events. The media-sharing platform that we developed for our client was a huge success. Users were able to easily share and track data about events, and the expense management feature proved to be a valuable addition to the platform. The platform was also able to handle large amounts of data and traffic, ensuring that it could scale with the client's growing business. Overall, our client was extremely satisfied with the solution we provided and we continue to work with them to improve and maintain the platform.",    image:
-      "/snapyfy.png",
+      "../images/snapyfy.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "/snapyfy.png",
+    webapp: "../images/snapyfy.png",
   },
    {
     id: 11,
@@ -575,7 +576,7 @@ export const projects = [
     description:
       "It's a comprehensive solution that meets specific requirements. The application boasts user-friendly features and seamless functionality to enhance user experience. It's designed to be scalable, allowing for future expansions and updates as needed. ",
     image:
-      "/ecommers.png",
+      "../images/ecommers.png",
     tags: [
       "React Js",
       "PostgressSQL",
@@ -615,11 +616,11 @@ export const projects = [
     date: "Jun 2021",
     description:
       "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:"/show.png",
+    image:"../images/show.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "/show.png",
+    webapp: "../images/show.png",
   },
   
 
