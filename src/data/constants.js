@@ -439,11 +439,11 @@ export const projects = [
     date: "Jan 2023 - Mar 2023",
     description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
     image:
-     "../images/ring.png",
+     "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
     tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "../images/ring.png",
+    webapp: "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
     member: [
       {
         name: "Manju Reddy",
@@ -472,7 +472,7 @@ export const projects = [
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
-      "https://play.google.com/store/apps/details?id=com.mcq2",
+      "https://play-lh.googleusercontent.com/JNq-b2Kj-bNnYI_uH1QyMzjT1mxNfxp1cANCFWii8TH6XVbMcnH9iHQGOomiqrcTlSs=w600-h300-pc0xffffff-pd",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
