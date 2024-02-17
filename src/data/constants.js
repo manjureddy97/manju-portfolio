@@ -3,8 +3,10 @@ export const Bio = {
   roles: [
     "Full Stack Developer",
     "Mobile Developer",
+      "Web Developer",
     "UI/UX Designer",
     "Programmer",
+
   ],
   description:
     "I'm a skilled web and mobile app developer with expertise in various languages and frameworks. I can create custom apps, integrate APIs, and ensure high-quality design and functionality. I offer unlimited revisions, timely delivery, and respect your privacy. Let's discuss your project details!",
@@ -378,7 +380,7 @@ export const experiences = [
 
    {
     id: 4,
-    img: "/Aaron.png",
+    img: "./Aaron.png",
     role: "Senior Software Engineer",
     company: "AaronSoftware",
    date: "Jul 2023 - Present",
@@ -583,7 +585,7 @@ export const projects = [
     description:"A Media-Sharing Platform that Keeps Track of Events. The media-sharing platform that we developed for our client was a huge success. Users were able to easily share and track data about events, and the expense management feature proved to be a valuable addition to the platform. The platform was also able to handle large amounts of data and traffic, ensuring that it could scale with the client's growing business. Overall, our client was extremely satisfied with the solution we provided and we continue to work with them to improve and maintain the platform.",    image:
       "./snapyfy.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
+    category: "android app",
       // github: "https://github.com/manjureddy97",
     webapp: "./snapyfy.png",
   },
