@@ -532,7 +532,7 @@ export const projects = [
     date: "Oct 2022 - Jan 2023",
     description:"SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals acefully.",
         image:
-      "./manju-portfolio/sosin.png",
+      "./sosin.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -543,7 +543,7 @@ export const projects = [
     ],
     category: "web app",
     // github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp:   "./manju-portfolio/sosin.png",
+    webapp:   "./sosin.png",
   },
   {
     id: 7,
