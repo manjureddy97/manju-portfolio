@@ -459,11 +459,11 @@ export const projects = [
     title: "Stybizz",
     date: "Dec 2021 - Apr 2022",
     description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",  
-      image:"../images/stybizz.png",  
+      image:"https://truequations.com/storage/6fWUkGCElJzV9hcYh9aIq4EjMkiF5eleR6Qje9Ot.gif",  
      tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "android app",
     // github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "../images/stybizz.png", 
+    webapp: "https://truequations.com/storage/6fWUkGCElJzV9hcYh9aIq4EjMkiF5eleR6Qje9Ot.gif", 
   },
   {
     id: 10,
@@ -472,11 +472,11 @@ export const projects = [
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
-      "../images/sosinm.png",
+      "https://play.google.com/store/apps/details?id=com.mcq2",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "../images/sosinm.png",
+    webapp: "https://play.google.com/store/apps/details?id=com.mcq2",
   },
   {
     id: 4,
@@ -495,11 +495,11 @@ export const projects = [
     title: "Farm Home",
     date: "Jun 2021",
     description:"Streamlining the Farm Stay Experience with a Custom Application. Our solution not only streamlined the booking process, but it also provided an opportunity for people to enjoy the natural setting and ambiance of a farm while taking a break from their everyday routines. With the deployment of this application, our client was able to cater to a new market segment and increase their revenue stream.We are proud to have provided our client with a solution that not only met their needs but exceeded their expectations. With our expertise in web and mobile development, we were able to deliver a platform that is easy to use, reliable and scalable.", 
-       image:"../images/farm.png",
+       image:"https://truequations.com/storage/Em05IkCRVcIMQ449JY2okk9hYzRKf3oTYrGaJJQY.gif",
     tags: ["React Native ", "Local Storage", "AWS Auth", "Node JS"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "../images/farm.png",
+    webapp: "https://truequations.com/storage/Em05IkCRVcIMQ449JY2okk9hYzRKf3oTYrGaJJQY.gif",
   },
     {
     id: 9,
@@ -551,23 +551,22 @@ export const projects = [
     date: "Dec 2020 - Jan 2021",
     description:
       "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-    image:
-      "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-    tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+    image:"https://play.google.com/store/apps/details?id=com.eterno.shortvideos",  
+      tags: ["React Native", "Node Js", "Google Analitics",],
     category: "android app",
     // github: "https://github.com/rishavchanda/Quiz-Earn",
-    webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
   },
   {
     id: 8,
     title: "Snapyfy",
     date: "Jan 2021",
     description:"A Media-Sharing Platform that Keeps Track of Events. The media-sharing platform that we developed for our client was a huge success. Users were able to easily share and track data about events, and the expense management feature proved to be a valuable addition to the platform. The platform was also able to handle large amounts of data and traffic, ensuring that it could scale with the client's growing business. Overall, our client was extremely satisfied with the solution we provided and we continue to work with them to improve and maintain the platform.",    image:
-      "../images/snapyfy.png",
+      "https://truequations.com/storage/9DpvtTPFJuBXLm6OtLI9lF00mNGgJj5yMwTcm4Fp.gif",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "../images/snapyfy.png",
+    webapp: "https://truequations.com/storage/9DpvtTPFJuBXLm6OtLI9lF00mNGgJj5yMwTcm4Fp.gif",
   },
    {
     id: 11,
