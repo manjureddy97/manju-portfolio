@@ -438,12 +438,11 @@ export const projects = [
     title: "MyRingByMe",
     date: "Jan 2023 - Mar 2023",
     description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
-    image:
-     "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
-    tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
+    image:"./ring.ng",
+        tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
+    webapp: "./ring.png",
     member: [
       {
         name: "Manju Reddy",
@@ -459,11 +458,11 @@ export const projects = [
     title: "Stybizz",
     date: "Dec 2021 - Apr 2022",
     description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",  
-      image:"https://truequations.com/storage/6fWUkGCElJzV9hcYh9aIq4EjMkiF5eleR6Qje9Ot.gif",  
+      image:"./stybizz.png",  
      tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
     category: "android app",
     // github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://truequations.com/storage/6fWUkGCElJzV9hcYh9aIq4EjMkiF5eleR6Qje9Ot.gif", 
+    webapp: "./stybizz.png", 
   },
   {
     id: 10,
@@ -472,7 +471,7 @@ export const projects = [
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
-      "https://play-lh.googleusercontent.com/JNq-b2Kj-bNnYI_uH1QyMzjT1mxNfxp1cANCFWii8TH6XVbMcnH9iHQGOomiqrcTlSs=w600-h300-pc0xffffff-pd",
+      "./sosin.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
@@ -484,22 +483,22 @@ export const projects = [
     date: "Jul 2021",
     description:
       "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:"../images/chat1.png",
+    image:"./chat1.png",
     tags: ["React Native", "Socket.io", "MongoDb", "Node JS"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "../images/chat2.png",
+    webapp: "./chat2.png",
   },
   {
     id: 5,
     title: "Farm Home",
     date: "Jun 2021",
     description:"Streamlining the Farm Stay Experience with a Custom Application. Our solution not only streamlined the booking process, but it also provided an opportunity for people to enjoy the natural setting and ambiance of a farm while taking a break from their everyday routines. With the deployment of this application, our client was able to cater to a new market segment and increase their revenue stream.We are proud to have provided our client with a solution that not only met their needs but exceeded their expectations. With our expertise in web and mobile development, we were able to deliver a platform that is easy to use, reliable and scalable.", 
-       image:"https://truequations.com/storage/Em05IkCRVcIMQ449JY2okk9hYzRKf3oTYrGaJJQY.gif",
+       image:"./farm.png",
     tags: ["React Native ", "Local Storage", "AWS Auth", "Node JS"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Todo-Web-App",
-    webapp: "https://truequations.com/storage/Em05IkCRVcIMQ449JY2okk9hYzRKf3oTYrGaJJQY.gif",
+    webapp: "./farm.png",
   },
     {
     id: 9,
