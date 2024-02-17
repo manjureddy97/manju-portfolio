@@ -471,7 +471,7 @@ export const projects = [
     description:
       "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
     image:
-      "./sosin.png",
+      "./sosinm.png",
     tags: ["React Native", "JavaScript", "Axios"],
     category: "Mobile app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
@@ -506,7 +506,7 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:"The proposed web application is tailored for cryptocurrency enthusiasts and investors. Users have access to comprehensive coin management tools, an assortment of counting utilities, in-depth statistics, and various other functionalities that streamline the process of cryptocurrency investments",
     image:
-      "https://drive.google.com/file/d/1AVVfkhrm39qsC3UlItmhQEFB1D01HI3W/view?usp=sharing",
+      "./crypto.png",
     tags: [
       "Docker",
       "AWS",
@@ -522,7 +522,7 @@ export const projects = [
     ],
     category: "web app",
     // github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://drive.google.com/file/d/1AVVfkhrm39qsC3UlItmhQEFB1D01HI3W/view?usp=sharing",
+    webapp: "./crypto.png",
   },
 
     {
@@ -561,11 +561,11 @@ export const projects = [
     title: "Snapyfy",
     date: "Jan 2021",
     description:"A Media-Sharing Platform that Keeps Track of Events. The media-sharing platform that we developed for our client was a huge success. Users were able to easily share and track data about events, and the expense management feature proved to be a valuable addition to the platform. The platform was also able to handle large amounts of data and traffic, ensuring that it could scale with the client's growing business. Overall, our client was extremely satisfied with the solution we provided and we continue to work with them to improve and maintain the platform.",    image:
-      "https://truequations.com/storage/9DpvtTPFJuBXLm6OtLI9lF00mNGgJj5yMwTcm4Fp.gif",
+      "./snapyfy.png",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
     category: "machine learning",
     // github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://truequations.com/storage/9DpvtTPFJuBXLm6OtLI9lF00mNGgJj5yMwTcm4Fp.gif",
+    webapp: "./snapyfy.png",
   },
    {
     id: 11,
@@ -574,7 +574,7 @@ export const projects = [
     description:
       "It's a comprehensive solution that meets specific requirements. The application boasts user-friendly features and seamless functionality to enhance user experience. It's designed to be scalable, allowing for future expansions and updates as needed. ",
     image:
-      "../images/ecommers.png",
+      "./ecommers.png",
     tags: [
       "React Js",
       "PostgressSQL",
@@ -593,11 +593,11 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:"This a multi-vendor application is a digital marketplace where multiple independent vendors can sell their products or services. It offers vendors a dedicated dashboard to manage listings, orders, and customer interactions. Customers can browse products from various vendors, compare prices, and make purchases securely. Key features include order management, secure payment processing, and ratings/reviews for vendors. Admins have control over the platform, ensuring smooth operations and security measures.",
     image:
-      "https://drive.google.com/file/d/1F6NqzWbbjJSgiJV2gM1z2wwHrMK69jQ-/view?usp=sharing",
+      "./ecom.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://drive.google.com/file/d/1F6NqzWbbjJSgiJV2gM1z2wwHrMK69jQ-/view?usp=sharing",
+    webapp: "./ecom.png",
     member: [
       {
         name: "Manju Reddy",
@@ -614,11 +614,11 @@ export const projects = [
     date: "Jun 2021",
     description:
       "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:"../images/show.png",
+    image:"./show.png",
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
     // github: "https://github.com/rishavchanda/Breaking-Bad",
-    webapp: "../images/show.png",
+    webapp: "./show.png",
   },
   
 
