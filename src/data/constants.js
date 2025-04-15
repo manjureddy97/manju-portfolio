@@ -2,21 +2,19 @@ export const Bio = {
   name: "Manju Reddy",
   roles: [
     "Full Stack Developer",
-    "Mobile Developer",
-      "Web Developer",
-    "UI/UX Designer",
-    "Programmer",
-
+    "Mobile App Developer",
+    "React Native Specialist",
+    "Web Developer",
+    "MERN Stack Developer",
   ],
   description:
-    "I'm a skilled web and mobile app developer with expertise in various languages and frameworks. I can create custom apps, integrate APIs, and ensure high-quality design and functionality. I offer unlimited revisions, timely delivery, and respect your privacy. Let's discuss your project details!",
+    "I'm a versatile Full Stack Developer specializing in mobile and web application development. With expertise in React, React Native, Node.js, and modern JavaScript frameworks, I build responsive, high-performance applications that deliver exceptional user experiences. I excel at creating custom solutions, seamless API integrations, and robust architectures that scale. My commitment to clean code, attention to detail, and collaborative approach ensures your project receives the quality it deserves. Let's transform your ideas into reality!",
   github: "https://github.com/manjureddy97",
   resume:
-    "https://drive.google.com/file/d/1V62WSKf7RZfN0VcBuXHxpFLN_9Yb4p2Q/view?usp=sharing",
+    "https://drive.google.com/drive/home",
   linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
   twitter: "https://twitter.com/ManjuReddyc97",
   insta: "https://www.instagram.com/manju_boini/",
-  
 };
 
 export const skills = [
@@ -43,11 +41,11 @@ export const skills = [
         image:
           "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
       },
-      {
-        name: "Angular Js",
-        image:
-          "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-      },
+      // {
+      //   name: "Angular Js",
+      //   image:
+      //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
+      // },
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -72,11 +70,11 @@ export const skills = [
         image:
           "data:image/png;base64,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",
       },
-      {
-        name: "Flutter",
-        image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-      },
+      // {
+      //   name: "Flutter",
+      //   image:
+      //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+      // },
     ],
   },
   {
@@ -100,11 +98,11 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-      {
-        name: "Flask",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-      },
+      // {
+      //   name: "Flask",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+      // },
       {
         name: "Django",
         image:
@@ -157,88 +155,88 @@ export const skills = [
         name: "Nginx",
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
-      {
-        name: "Grafana",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
-        name: "Prometheus",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      },
+      // {
+      //   name: "Grafana",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      // },
+      // {
+      //   name: "Kubernetes",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      // },
+      // {
+      //   name: "Prometheus",
+      //   image:
+      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+      // },
     ],
   },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      {
-        name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      },
-      {
-        name: "Jetpack Compose",
-        image:
-          "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
-      },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
-    ],
-  },
-  {
-    title: "Machine Learning",
-    skills: [
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
-      {
-        name: "Tenserflow",
-        image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
-      },
-      {
-        name: "Keras",
-        image:
-          "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
-      },
-      {
-        name: "Jupyter",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
-      },
-      {
-        name: "Sk Learn Kit",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
-      },
-    ],
-  },
+  // {
+  //   title: "Android",
+  //   skills: [
+  //     {
+  //       name: "Java",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+  //     },
+  //     {
+  //       name: "Kotlin",
+  //       image:
+  //         "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+  //     },
+  //     {
+  //       name: "Jetpack Compose",
+  //       image:
+  //         "https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack%2Bcompose%2Bicon_RGB.png",
+  //     },
+  //     {
+  //       name: "XML",
+  //       image:
+  //         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+  //     },
+  //     {
+  //       name: "Android Studio",
+  //       image:
+  //         "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: "Machine Learning",
+  //   skills: [
+  //     {
+  //       name: "Python",
+  //       image:
+  //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+  //     },
+  //     {
+  //       name: "Tenserflow",
+  //       image:
+  //         "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+  //     },
+  //     {
+  //       name: "Keras",
+  //       image:
+  //         "https://miro.medium.com/v2/resize:fit:600/1*DKu_54iqz6C-p6ndo7rO3g.png",
+  //     },
+  //     {
+  //       name: "Jupyter",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1767px-Jupyter_logo.svg.png",
+  //     },
+  //     {
+  //       name: "Google Colab",
+  //       image:
+  //         "https://assets.stickpng.com/images/63c2e4c9c4baad4ce22bf9ef.png",
+  //     },
+  //     {
+  //       name: "Sk Learn Kit",
+  //       image:
+  //         "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png",
+  //     },
+  //   ],
+  // },
   {
     title: "Others",
     skills: [
@@ -284,11 +282,11 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://blueihub.com/wp-content/uploads/2023/09/cropped-4AcSbJ2.png",
+    img: "https://content.jdmagicbox.com/comp/hyderabad/k4/040pxx40.xx40.190323001528.n4k4/catalogue/blueihub-it-services-pvt-ltd-begumpet-hyderabad-internet-website-designers-r0rw18dafb-250.jpg",
     role: "Software Engineer",
     company: "Bluelhub",
     date: "Apr 2018 - June 2021",
-    desc: "Enhanced user experiences on Bluelhub PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Bluelhub Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc: "Enhanced user experiences on Bluelhub PSG & Hybrid Portals by resolving critical bugs and reducing load time by 40%. Developed responsive UI components using HTML, CSS, and Bootstrap. Built Bluelhub Analytics portal using React JS with seamless REST API integration using Axios. Collaborated with design team using Figma to implement pixel-perfect interfaces. Participated in code reviews and implemented best practices for front-end development.",
     skills: [
       "HTML",
       "CSS",
@@ -297,7 +295,6 @@ export const experiences = [
       "React Js",
       "Figma"
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
@@ -305,43 +302,22 @@ export const experiences = [
     role: "Software Developer",
     company: "Seasia Infotech, Mohali.",
     date: "June 2022 - Mar 2022",
-    desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    desc: "Led development of cross-platform applications using React JS and React Native with TypeScript. Implemented state management using Redux and context API. Built RESTful APIs with Node.js and integrated GraphQL to optimize data fetching, reducing API calls by 20%. Collaborated with UX/UI designers to implement responsive interfaces. Wrote clean, maintainable code following industry best practices and participated in code reviews to ensure quality.",
     skills: [
       "React Js",
       "React Native",
       "JavaScript",
       "TypeScript",
       "Node Js",
-        
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-  //   role: "Android Developer Intern",
-  //   company: "Rudraksha Welffare Foundation",
-  //   date: "June 2021 - Oct 2021",
-  //   desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-  //   skills: [
-  //     "Android",
-  //     "Java",
-  //     "Kotlin",
-  //     "XML",
-  //     "Node Js",
-  //     "Cloud Firestore",
-  //     "Firebase",
-  //     "Figma",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  // },
   {
     id: 3,
     img: "https://media.licdn.com/dms/image/C560BAQGFUXFOrwA4sA/company-logo_200_200/0/1630561994394/riser_techub_logo?e=2147483647&v=beta&t=8Ml65wHqwsjjWMNgNzzRrb2m901m1MNT0VRIER-0KSM",
     role: "ReactNative Developer",
     company: "Riser Techub, Pune",
     date: "Mar 2022 - June 2022",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
+    desc: "Developed and maintained cross-platform mobile applications using React Native. Created reusable components and implemented Redux for state management. Built a full-stack employee management web application with React JS frontend and Node.js backend. Containerized the application using Docker and deployed on AWS EC2. Implemented responsive UI designs using Material UI and custom CSS. Recognized as the top performer for delivering high-quality code ahead of deadlines.",
     skills: [
       "ReactJS",
       "React Native",
@@ -355,15 +331,14 @@ export const experiences = [
       "AWS",
       "MongoDB",
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
   {
     id: 4,
     img: "https://media.licdn.com/dms/image/C4E0BAQEr40qQwS1DmA/company-logo_200_200/0/1630572952269/natsoft_logo?e=2147483647&v=beta&t=ZOFnorJMS18B9okXuhMIiMCH7rajsrh1fV620E34XUc",
     role: "Senior Software Engineer",
     company: "Natsoft",
-   date: "Jul 2022 - July 2023",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    date: "Jul 2022 - July 2023",
+    desc: "Led development teams in creating responsive web and mobile applications using React JS and React Native. Implemented complex UI components with Material UI and custom CSS. Mentored junior developers and conducted code reviews to maintain code quality. Collaborated with product managers to translate business requirements into technical specifications. Implemented state management solutions using Redux and Context API. Improved application performance and user experience through code optimization.",
     skills: [
       "Leadership",
       "Mobile Application Development",
@@ -377,14 +352,13 @@ export const experiences = [
       "JavaScript",
     ],
   },
-
-   {
-    id: 4,
+  {
+    id: 5,
     img: "./Aaron.png",
     role: "Senior Software Engineer",
     company: "AaronSoftware",
-   date: "Jul 2023 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
+    date: "Jul 2023 - March-2024",
+    desc: "Architected and developed enterprise-level web and mobile applications using React JS and React Native. Led front-end development initiatives and implemented responsive designs with Material UI. Established coding standards and best practices for the development team. Implemented efficient state management using Redux and Redux Toolkit. Collaborated with UX/UI designers to create intuitive user interfaces. Conducted technical interviews and mentored junior developers to foster team growth.",
     skills: [
       "Leadership",
       "Mobile Application Development",
@@ -392,11 +366,39 @@ export const experiences = [
       "React JS",
       "React Native",
       "Redux",
-    
       "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
+    ],
+  },
+  {
+    id: 6,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsO0DpltfzxawXnJJMIZjtWVaYECVq5maT9A&s",
+    role: "Senior Software Engineer",
+    company: "BDNT Labs",
+    date: "March 2024 - Present",
+    desc: "Leading product development initiatives as a Full Stack developer, architecting scalable solutions using modern technologies. Developing high-performance web applications with Next.js, React, and Node.js. Building cross-platform mobile applications with React Native. Designing and implementing RESTful APIs and database schemas using Express.js with MongoDB and PostgreSQL. Deploying and maintaining cloud infrastructure on AWS. Implementing CI/CD pipelines for automated testing and deployment. Mentoring junior developers and conducting code reviews to ensure code quality and best practices.",
+    skills: [
+      "Product Development Lead",
+      "Mobile Application Development",
+      "Web Application Development",
+      "React JS",
+      "React Native",
+      "Redux",
+      "Next Js",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "Postgresql",
+      "Firebase",
+      "Python",
+      "Django",
+      "AWS",
     ],
   },
 ];
@@ -432,218 +434,107 @@ export const experiences = [
 // ];
 
 export const projects = [
- 
-  
-
   {
-    id: 2,
-    title: "MyRingByMe",
-    // date: "Jan 2023 - Mar 2023",
-    description:"A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify. ",
-    image:"https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
-        tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
-    category: "mobile learning",
-      // github: "https://github.com/manjureddy97",
-    webapp: "https://truequations.com/storage/UFDSD6FYYqZzPaBwOnchwiTt43k1q8Eo5W9Uj2hm.gif",
-    // member: [
-    //   {
-    //     name: "Manju Reddy",
-    //     img: "./HeroImage.jpeg",
-    //     linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
-          // github: "https://github.com/manjureddy97",
-    //   },
-    
-    // ],
+    id: 1,
+    title: "Upadhi.ai (Job Portal)",
+    description: "A comprehensive job portal designed to connect job seekers and employers. Features a mobile app built with React Native for Android and iOS, with Redux for state management. The backend is powered by Node.js and uses PostgreSQL and MongoDB. AWS services are used for scalability, and OpenAI is integrated for intelligent job recommendations and matching algorithms.",
+    image: "https://media.licdn.com/dms/image/v2/D560BAQFUUEhEdV_Rug/company-logo_200_200/company-logo_200_200/0/1694422873286?e=2147483647&v=beta&t=cLsjPAJa08so4W6Pc8t5FhQnHPox_z_-fuM08GPsrfA",
+    tags: ["Redux", "Next.js", "Node.js", "PostgreSQL", "MongoDB", "Jenkins", "SonarQube", "AWS", "OpenAI"],
+    category: "web app",
+    webapp: "https://upadhi.ai",
   },
   {
     id: 2,
-    title: "Josh",
-    // date: "Jan 2023 - Mar 2023",
-    description:" Josh is a short video app that lets you watch, share, and create fun and engaging videos and discover your Mojo. ",
-    image:"https://entrackr.com/storage/2020/07/josh-1.jpg",
-        tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
-     category: "android app",
-      // github: "https://github.com/manjureddy97",
-    webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
-    // member: [
-    //   {
-    //     name: "Manju Reddy",
-    //     img: "./HeroImage.jpeg",
-    //     linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
-          // github: "https://github.com/manjureddy97",
-    //   },
-    
-    // ],
+    title: "Upadhi Mobile App",
+    description: "Developed the mobile application for the Upadhi.ai job portal. Integrated with AWS for serverless computing, Firebase for authentication, and used OpenAI for personalized job alerts. React Native was used for building a seamless cross-platform experience with Redux and Redux Saga for efficient state management.",
+    image: "https://www.upadhi.ai/_next/image?url=%2Fimages%2Flogolightwebp.webp&w=384&q=75",
+    tags: ["React Native", "Redux", "AWS"],
+    category: "android app",
+    webapp: "https://upadhi.ai",
   },
   {
     id: 3,
-    title: "Stybizz",
-    // date: "Dec 2021 - Apr 2022",
-    description:"Creating a seamless e-commerce experience for clothing platform. To solve this problem, we developed an application that allows both users and sellers to buy and sell products, as well as manage their inventory data. The app also includes a live streaming feature for sellers to showcase their products to users. With this solution, our client was able to manage all their orders and product data across multiple stores, and individuals were able to perform activities according to slots.",  
-      image:"./stybizz.png",  
-     tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql",],
+    title: "MyRingByMe",
+    description: "A platform that lets you create custom rings and preview them using augmented reality! For this project, we used React Native on the frontend and Ruby on Rails on the backend. The backend was deployed on Amazon Web Services' ECS (Elastic Container Service) and used a fully managed RDS (Relational Database Service) Postgresql database. The web version was deployed on AWS Amplify.",
+    image: "https://images.sftcdn.net/images/t_app-icon-m/p/63348ade-b64f-494f-af93-fc290acd53a8/3332669459/myringbyme-logo",
+    tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql"],
     category: "android app",
-    //  github: "https://github.com/manjureddy97",
-    webapp: "./stybizz.png", 
-  },
-  {
-    id: 10,
-    title: "MCQ Moc Test",
-    // date: "Jun 2022 - Jul 2023",
-    description:
-      "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter. Our aim is to support students in their exam preparation journey by offering a convenient and effective tool that allows them to assess their knowledge, identify areas for improvement, and build confidence ahead of their group exams.",
-    image:
-      "./sosinm.png",
-    tags: ["React Native", "JavaScript", "Axios"],
-     category: "android app",
-    //  github: "https://github.com/manjureddy97",
-    webapp: "https://play.google.com/store/apps/details?id=com.mcq2",
+    webapp: "https://apps.apple.com/mx/app/myringbyme/id1604386189?l=en-GB",
   },
   {
     id: 4,
-    title: "Chat App",
-    date: "Jul 2021",
-    description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:"./chat1.png",
-    tags: ["React Native", "Socket.io", "MongoDb", "Node JS"],
-   category: "mobile learning",
-    //  github: "https://github.com/manjureddy97",
-    webapp: "./chat2.png",
+    title: "Josh",
+    description: "Josh is a short video app that lets you watch, share, and create fun and engaging videos and discover your Mojo. Developed with React Native for a smooth user experience across platforms.",
+    image: "https://images.sftcdn.net/images/t_app-icon-m/p/351d7ec4-9f8c-4368-9bdb-4f7f0ac543bd/1857296612/josh-short-videos-app-logo",
+    tags: ["React Native Expo", "Ruby on Rails", "AWS", "Postgresql"],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
   },
   {
     id: 5,
-    title: "Farm Home",
-    date: "Jun 2021",
-    description:"Streamlining the Farm Stay Experience with a Custom Application. Our solution not only streamlined the booking process, but it also provided an opportunity for people to enjoy the natural setting and ambiance of a farm while taking a break from their everyday routines. With the deployment of this application, our client was able to cater to a new market segment and increase their revenue stream.We are proud to have provided our client with a solution that not only met their needs but exceeded their expectations. With our expertise in web and mobile development, we were able to deliver a platform that is easy to use, reliable and scalable.", 
-       image:"./farm.png",
-    tags: ["React Native ", "Local Storage", "AWS Auth", "Node JS"],
-   category: "android app",
-    // github: "https://github.com/manjureddy97",
-    webapp: "./farm.png",
+    title: "Sparkseeker",
+    description: "Helping businesses Supercharge your influence, foster meaningful connections, and ignite positive change with Sparkseeker – the customizable, responsible tech-powered social community app.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHoy0t499baqTZaI-slR2IS_4BP_F9NhlOFb932lUat2I9goEwY7HqbYx5aLXP5-_HKc4&usqp=CAU",
+    tags: ["React Native", "Node Js", "AWS", "PostgreSQL", "React.js"],
+    category: "android app",
+    webapp: "https://sparkseeker.com/",
   },
-    {
-    id: 9,
-    title: "Crypto",
-    date: "Jun 2023 - Jul 2023",
-    description:"The proposed web application is tailored for cryptocurrency enthusiasts and investors. Users have access to comprehensive coin management tools, an assortment of counting utilities, in-depth statistics, and various other functionalities that streamline the process of cryptocurrency investments",
-    image:
-      "./crypto.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-      // github: "https://github.com/manjureddy97",
-    webapp: "./crypto.png",
+  {
+    id: 6,
+    title: "MCQ Moc Test",
+    description: "This is the application that our team has developed specifically to assist students in preparing for their group exams by providing a platform for practicing mock tests. With this application, students can access a wide range of mock tests designed to simulate the actual exam experience, helping them familiarize themselves with the format, timing, and types of questions they may encounter.",
+    image: "https://play-lh.googleusercontent.com/yc4gyBBM03m6tFoOUivkO_ghjxTUEGoqiLJqrTS7BogHKCH_D-SqlzqC-TqA_VQrrUVa=w2560-h1440-rw",
+    tags: ["React Native", "JavaScript", "Axios", "Redux", "Android Studio", "Xcode"],
+    category: "android app",
+    webapp: "https://play.google.com/store/apps/details?id=com.mcq2",
   },
-
-    {
-    id: 1,
+  {
+    id: 7,
     title: "Sosin",
     date: "Oct 2022 - Jan 2023",
-    description:"SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals acefully.",
-        image:
-      "./sosin.png",
-    tags: [
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "NodeMailer",
-    ],
+    description: "SOSIN CLASSES formerly known as TARGET IAS is a Hyderabad based coaching institute that trains Civil Services aspirants to reach their goals successfully. A web app designed to help students prepare for UPSC Anthropology exams through video lectures and periodic tests by Mrs. Sosin Thayyaba Revella.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCijQwZAGhDNOj_G6P1CZJcDgyao6LqJ6Or-JrUCCx0S5dGCuwfJRvIlCyryN4_F5WOc8&usqp=CAU",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux", "NodeMailer"],
     category: "web app",
-    //  github: "https://github.com/manjureddy97",
-    webapp:   "./sosin.png",
+    webapp: "https://sosinias.com",
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:"https://play.google.com/store/apps/details?id=com.eterno.shortvideos",  
-  //     tags: ["React Native", "Node Js", "Google Analitics",],
-  //   category: "android app",
-    //  github: "https://github.com/manjureddy97",
-  //   webapp: "https://play.google.com/store/apps/details?id=com.eterno.shortvideos",
-  // },
   {
     id: 8,
-    title: "Snapyfy",
-    date: "Jan 2021",
-    description:"A Media-Sharing Platform that Keeps Track of Events. The media-sharing platform that we developed for our client was a huge success. Users were able to easily share and track data about events, and the expense management feature proved to be a valuable addition to the platform. The platform was also able to handle large amounts of data and traffic, ensuring that it could scale with the client's growing business. Overall, our client was extremely satisfied with the solution we provided and we continue to work with them to improve and maintain the platform.",    image:
-      "./snapyfy.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+    title: "Rapid Notifier",
+    description: "A  project that provides security alerts through sound notifications. The app was developed for both Android and iOS using React Native with Expo. Features real-time notifications for security alerts and emergencies.",
+    image: "https://rapid.sg/wp-content/uploads/2018/09/Rapid-logo-150x150-2.png",
+    tags: ["React Native", "Expo", "Xcode", "Recoil"],
     category: "android app",
-      // github: "https://github.com/manjureddy97",
-    webapp: "./snapyfy.png",
-  },
-   {
-    id: 11,
-    title: "EcommerceAdmin",
-    date: "Jan 2024 - Dec 2023",
-    description:
-      "It's a comprehensive solution that meets specific requirements. The application boasts user-friendly features and seamless functionality to enhance user experience. It's designed to be scalable, allowing for future expansions and updates as needed. ",
-    image:
-      "./ecommers.png",
-    tags: [
-      "React Js",
-      "PostgressSQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-      "React Flow",
-    ],
-    category: "web app",
-      // github: "https://github.com/manjureddy97",
-    webapp: "https://65ce56e3c327a31fad198000--comadmin.netlify.app/",
+    webapp: "https://rapid.sg/",
   },
   {
-    id: 0,
-    title: "Ecommers",
-    date: "Apr 2023 - May 2023",
-    description:"This a multi-vendor application is a digital marketplace where multiple independent vendors can sell their products or services. It offers vendors a dedicated dashboard to manage listings, orders, and customer interactions. Customers can browse products from various vendors, compare prices, and make purchases securely. Key features include order management, secure payment processing, and ratings/reviews for vendors. Admins have control over the platform, ensuring smooth operations and security measures.",
-    image:
-      "./ecom.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    id: 9,
+    title: "Materra",
+    description: "Materra is the one-stop nature-based solution for the fashion industry to source fully traceable regenerative cotton, at scale.",
+    image: "https://uploads-ssl.webflow.com/65361781723a0955a42be9b3/6620dcf7eeeeee0655e6f9ed_materra%2Bwebsite.jpg",
+    tags: ["React.js", "Redux"],
     category: "web app",
-    //  github: "https://github.com/manjureddy97",
-    webapp: "./ecom.png",
-    // member: [
-    //   {
-    //     name: "Manju Reddy",
-    //     img: "./HeroImage.jpeg",
-    //     linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
-        //  github: "https://github.com/manjureddy97",
-    //   },
-    
-    // ],
+    webapp: "https://www.materra.tech/"
   },
-    {
-    id: 6,
-    title: "Tv Shows",
-    date: "Jun 2021",
-    description:
-      "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    image:"./show.png",
-    tags: ["React Js", "API", "Axios", "Node JS"],
+  {
+    id: 10,
+    title: "Dhyeya School of Business Intelligence",
+    description: "Dhyeya, School of Business Intelligence, Enterprise Computing and Applied AI research, is dedicated to transforming individuals into dynamic and expert professionals fully equipped to achieve success.",
+    image: "https://www.dhyeya.ai/_next/static/media/Dhyeya-Logo.f6319d05.png",
+    tags: ["Redux", "Next.js", "Node.js", "PostgreSQL", "MongoDB", "Jenkins", "SonarQube", "AWS", "OpenAI"],
     category: "web app",
-    //  github: "https://github.com/manjureddy97",
-    webapp: "./show.png",
+    webapp: "https://dhyeya.ai/"
+  },
+  {
+    id: 11,
+    title: "Calm and Connected",
+    description: "The therapists at Calm and Connected provide mobile, clinical and online support to the adults surrounding a child, and teach the child how to address the foundational skills that affect our ability to connect.",
+    image: "https://calmandconnected.com.au/wp-content/uploads/2023/02/CC-landscape-light-1280x332.png",
+    tags: ["React.js", "Redux", "Node.js", "PostgreSQL", "MongoDB", "Jenkins", "SonarQube", "AWS"],
+    category: "web app",
+    webapp: "https://calmandconnected.com.au/"
   },
   
-
 ];
 
 export const TimeLineData = [

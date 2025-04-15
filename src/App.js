@@ -11,7 +11,6 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
-
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 
@@ -26,13 +25,14 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
+      <Router basename="/manju-portfolio">
         <Navbar />
         <Body>
           <HeroSection />
@@ -42,8 +42,8 @@ function App() {
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
-           {/* <Education >*/}
-            {/*<Contact />*/}
+            {/* <Education /> */}
+            {/* <Contact /> */}
           </Wrapper>
           <Footer />
           {openModal.state &&
