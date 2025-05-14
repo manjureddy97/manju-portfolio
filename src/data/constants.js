@@ -11,7 +11,7 @@ export const Bio = {
     "I'm a versatile Full Stack Developer specializing in mobile and web application development. With expertise in React, React Native, Node.js, and modern JavaScript frameworks, I build responsive, high-performance applications that deliver exceptional user experiences. I excel at creating custom solutions, seamless API integrations, and robust architectures that scale. My commitment to clean code, attention to detail, and collaborative approach ensures your project receives the quality it deserves. Let's transform your ideas into reality!",
   github: "https://github.com/manjureddy97",
   resume:
-    "https://drive.google.com/drive/home",
+    "https://docs.google.com/document/d/1r7wHimKtfR8JULs6XTX-l1RdQnEWlS08ljsQ-LVXR_o/edit?tab=t.0",
   linkedin: "https://www.linkedin.com/in/manju-reddy-01abba213/",
   twitter: "https://twitter.com/ManjuReddyc97",
   insta: "https://www.instagram.com/manju_boini/",
