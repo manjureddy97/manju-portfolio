@@ -1,14 +1,18 @@
 export const Bio = {
   name: "Manju Reddy",
   roles: [
-    "Full Stack Developer",
+    "Senior Full Stack Developer",
     "Mobile App Developer",
     "React Native Specialist",
     "Web Developer",
     "MERN Stack Developer",
+    "AI Application Developer",
+    "Cloud & API Engineer",
+    "SaaS Platform Engineer",
   ],
+
   description:
-    "I'm a versatile Full Stack Developer specializing in mobile and web application development. With expertise in React, React Native, Node.js, and modern JavaScript frameworks, I build responsive, high-performance applications that deliver exceptional user experiences. I excel at creating custom solutions, seamless API integrations, and robust architectures that scale. My commitment to clean code, attention to detail, and collaborative approach ensures your project receives the quality it deserves. Let's transform your ideas into reality!",
+    `I help businesses design and build scalable, high-quality digital products—from modern web and mobile applications to cloud-ready backend systems. With 8+ years of full-stack experience, I deliver clean, reliable solutions that scale with your business and provide exceptional user experiences.`,
   github: "https://github.com/manjureddy97",
   resume:
     "https://docs.google.com/document/d/1r7wHimKtfR8JULs6XTX-l1RdQnEWlS08ljsQ-LVXR_o/edit?tab=t.0",
@@ -31,7 +35,7 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-       {
+      {
         name: "React Native",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -155,21 +159,37 @@ export const skills = [
         name: "Nginx",
         image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
       },
-      // {
-      //   name: "Grafana",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-      // },
-      // {
-      //   name: "Kubernetes",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      // },
-      // {
-      //   name: "Prometheus",
-      //   image:
-      //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-      // },
+      {
+        name: "LLMs / AI Systems",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/OpenAI_Logo.svg",
+      },
+      {
+        name: "RAG Pipelines",
+        image:
+          "https://raw.githubusercontent.com/langchain-ai/langchain/master/docs/static/img/langchain.png",
+      },
+      {
+        name: "Vector Databases",
+        image:
+          "https://qdrant.tech/images/logo_with_text.svg",
+      },
+      {
+        name: "Grafana",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      {
+        name: "Prometheus",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
+      },
+
     ],
   },
   // {
@@ -309,6 +329,24 @@ export const experiences = [
       "JavaScript",
       "TypeScript",
       "Node Js",
+      "Python"
+    ],
+  },
+  {
+    id: 2,
+    img: "https://media.instahyre.com/images/profile/base/employer/29611/0268b3939c/logo_resize.webp",
+    role: "Senior Engineer",
+    company: "Truequations .",
+    date: "Oct 2022 - Mar 2022",
+    desc: "Led development of cross-platform applications using React JS and React Native with TypeScript. Implemented state management using Redux and context API. Built RESTful APIs with Node.js and integrated GraphQL to optimize data fetching, reducing API calls by 20%. Collaborated with UX/UI designers to implement responsive interfaces. Wrote clean, maintainable code following industry best practices and participated in code reviews to ensure quality.",
+    skills: [
+      "React Js",
+      "React Native",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "Python",
+      "Django"
     ],
   },
   {
@@ -342,15 +380,36 @@ export const experiences = [
     skills: [
       "Leadership",
       "Mobile Application Development",
+      "Web Application Development",
       "ReactJS",
+      "Next.js",
       "React Native",
       "Redux",
-      "NodeJs",
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "FastAPI",
+      "Django",
+      "REST API Development",
+      "AI Application Development",
+      "LLM Integration",
+      "RAG Pipelines",
+      "Vector Databases (pgvector, Qdrant)",
+      "AI Search & Retrieval",
+      "Cloud Computing (AWS, Azure, GCP)",
+      "Docker",
+      "Kubernetes",
+      "Observability & Monitoring",
+      "Grafana",
+      "Prometheus",
+      "Datadog",
       "Material UI",
       "HTML",
       "CSS",
-      "JavaScript",
-    ],
+      "JavaScript"
+    ]
+
+
   },
   {
     id: 5,
@@ -366,18 +425,31 @@ export const experiences = [
       "React JS",
       "React Native",
       "Redux",
+      "Node.js",
+      "Python",
+      "API Development",
+      "AI Application Development",
+      "LLM Integration",
+      "RAG Pipelines",
+      "Vector Databases",
+      "Cloud Computing",
+      "Docker",
+      "Kubernetes",
+      "Grafana",
+      "Prometheus",
       "Material UI",
       "HTML",
       "CSS",
       "JavaScript",
-    ],
+    ]
+
   },
   {
     id: 6,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsO0DpltfzxawXnJJMIZjtWVaYECVq5maT9A&s",
     role: "Senior Software Engineer",
     company: "BDNT Labs",
-    date: "March 2024 - Present",
+    date: "March 2024 - Aug 2025",
     desc: "Leading product development initiatives as a Full Stack developer, architecting scalable solutions using modern technologies. Developing high-performance web applications with Next.js, React, and Node.js. Building cross-platform mobile applications with React Native. Designing and implementing RESTful APIs and database schemas using Express.js with MongoDB and PostgreSQL. Deploying and maintaining cloud infrastructure on AWS. Implementing CI/CD pipelines for automated testing and deployment. Mentoring junior developers and conducting code reviews to ensure code quality and best practices.",
     skills: [
       "Product Development Lead",
@@ -398,9 +470,56 @@ export const experiences = [
       "Firebase",
       "Python",
       "Django",
+      "FastAPI",
+      "REST API Development",
+      "AI Application Development",
+      "LLM Integration",
+      "RAG Pipelines",
+      "Vector Databases (pgvector, Qdrant)",
+      "AI Search & Retrieval",
+      "Docker",
+      "Kubernetes",
+      "Grafana",
+      "Prometheus",
+      "Datadog",
       "AWS",
-    ],
+    ]
+
   },
+
+  {
+    id: 7,
+    img: "https://www.greatplacetowork.in/great/api/assets/uploads/8860/logo/logo.jpg",
+    role: "Senior Software Engineer",
+    company: "Coforge",
+    date: "Aug 2025 - Dec 2025",
+    desc: "Worked as a Senior Software Engineer on large-scale enterprise applications for global clients, contributing across the full software development lifecycle. Developed and enhanced responsive front-end applications using React and modern JavaScript frameworks. Built and maintained backend services using Python (Django, FastAPI) and Node.js, implementing secure and scalable REST APIs aligned with business requirements. Collaborated with architects, QA, and DevOps teams to design reliable system components, improve application performance, and ensure production stability. Supported cloud deployments on AWS, participated in CI/CD processes, and worked with monitoring and observability tools such as Datadog to maintain high availability. Actively participated in code reviews, agile ceremonies, and team mentoring, ensuring code quality and adherence to enterprise best practices.",
+
+    skills: [
+      "Enterprise Application Development",
+      "Web Application Development",
+      "React JS",
+      "Redux",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "Python",
+      "Django",
+      "FastAPI",
+      "REST API Development",
+      "Microservices Architecture",
+      "PostgreSQL",
+      "MongoDB",
+      "Cloud Computing (AWS)",
+      "Docker",
+      "CI/CD Pipelines",
+      "Datadog",
+      "Monitoring & Observability",
+      "Agile & Scrum",
+      "System Design",
+    ]
+  },
+
 ];
 
 // export const education = [
@@ -534,12 +653,155 @@ export const projects = [
     category: "web app",
     webapp: "https://calmandconnected.com.au/"
   },
-  
+
+  {
+    id: 12,
+    title: "Kisanwala",
+    description: "Kisanwala is an agri-tech platform that enables farmers and agribusinesses to rent cutting-edge agricultural machinery such as drones, harvesters, transplanters, and robots on demand. The platform also provides real-time crop price monitoring and future price insights to support informed decision-making. I worked on both web and mobile applications, focusing on building scalable user interfaces, seamless booking workflows, and reliable backend integrations to ensure smooth operations for vendors and customers.",
+    image: "https://play-lh.googleusercontent.com/Uo2m-Z76dsOHDJhymYyKsAscMdu5MhiWSIQwDI__5y7vuLfL9QzHAjhkbC3L3LVNB5VS",
+    tags: [
+      "React.js",
+      "React Native",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "REST APIs",
+      "AWS",
+      "Firebase"
+    ],
+
+  },
+  {
+    id: 13,
+    title: "Kisanwala Mobile",
+    category: "android app",
+    description: "Kisanwala is an agri-tech platform that enables farmers and agribusinesses to rent cutting-edge agricultural machinery such as drones, harvesters, transplanters, and robots on demand. The platform also provides real-time crop price monitoring and future price insights to support informed decision-making. I worked on both web and mobile applications, focusing on building scalable user interfaces, seamless booking workflows, and reliable backend integrations to ensure smooth operations for vendors and customers.",
+    image: "https://cdn.dribbble.com/userupload/7630914/file/original-a21da86e088a8374f9b80349a931dc3c.jpg?resize=400x300",
+    webapp: "https://corporate.kisanwala.com",
+    mobile: [
+      "https://play.google.com/store/apps/details?id=com.kisanwala&pcampaignid=web_share",
+      "https://share.google/KnPf1uQkOG7LjnxXi"
+    ]
+  },
+  {
+    id: 14,
+    title: "Board Agent",
+    description: "Board Agent is an AI-powered governance and decision-support platform designed for board members and executive leadership. The system leverages LLMs and RAG-based pipelines to ingest, analyze, and retrieve insights from board documents, reports, and structured data. I worked on building the full-stack architecture, including intelligent document ingestion, vector-based search, and contextual AI responses to support strategic decision-making. The platform focuses on security, scalability, and explainability, enabling organizations to access accurate insights from complex board-level data in real time.",
+    image: "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
+    tags: [
+      "Next.js",
+      "React.js",
+      "Python",
+      "FastAPI",
+      "LLM Integration",
+      "RAG Pipelines",
+      "Vector Databases (pgvector, Qdrant)",
+      "AI Search & Retrieval",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ],
+    category: "web app"
+  },
+  {
+    id: 14,
+    title: "Scholarship Management Platform",
+    description: "A comprehensive scholarship management platform designed to streamline the end-to-end scholarship lifecycle, including applications, eligibility validation, review workflows, and beneficiary tracking. I contributed to developing scalable web interfaces and backend services to handle large applicant volumes, role-based access, and secure data processing. The platform improves transparency, reduces manual effort, and ensures efficient scholarship distribution through automated workflows and real-time status tracking.",
+    image: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+    tags: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Python",
+      "Django",
+      "REST APIs",
+      "PostgreSQL",
+      "Role-Based Access Control",
+      "Cloud Deployment",
+      "AWS"
+    ],
+    category: "web app"
+  },
+  {
+    id: 15,
+    title: "Dhyeya.ai",
+    description: "Dhyeya.ai is an online upskilling and career transformation platform offering expert-led courses in Data Science, Soft Skills, SAP, HR, and other professional domains. I contributed to building scalable web application features focused on course discovery, enrollment workflows, and user engagement. The platform is designed to support high user traffic, secure content delivery, and a smooth learning experience, helping learners upskill and achieve their career goals through structured, industry-relevant programs.",
+    image: "https://media.licdn.com/dms/image/v2/D5622AQFfHs5H9S6wXw/feedshare-shrink_800/B56ZpZX6ilH8Ak-/0/1762436034498?e=2147483647&v=beta&t=KlT9AWKQwdFs4Pm0AQVvb5AXOtC07gnbSJfD-MHr9vA",
+    tags: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "AI Application Development",
+      "LLM Integration",
+      "RAG Pipelines",
+      "Vector Databases",
+      "AI Search & Retrieval",
+      "Cloud Deployment",
+      "AWS",
+      "Authentication",
+      "Scalable Web Architecture"
+    ],
+
+    category: "mobile app",
+    webapp: "https://www.dhyeya.ai"
+  },
+  {
+    id: 16,
+    title: "SchoolApp",
+    description: "SchoolApp is a comprehensive school management platform designed to digitize and streamline academic and administrative operations. The application supports student enrollment, attendance tracking, timetable management, fee management, examinations, and parent-teacher communication. I worked on both web and mobile applications, building intuitive user interfaces and scalable backend services to support multiple user roles such as administrators, teachers, students, and parents. The platform improves operational efficiency, transparency, and real-time communication within educational institutions.",
+    image: "https://www.aaxiomcrest.com/images/stellar_app.jpg",
+    tags: [
+      "React.js",
+      "React Native",
+      "Next.js",
+      "Node.js",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Role-Based Access Control",
+      "Authentication",
+      "Cloud Deployment",
+      "AWS"
+    ],
+    category: "mobile app"
+  },
+  {
+    id: 17,
+    title: "ERP System",
+    description: "A comprehensive Enterprise Resource Planning (ERP) system designed to centralize and automate core business operations across multiple departments. The platform covers modules such as HR management, payroll, finance, inventory, procurement, attendance, reporting, and role-based access control. I contributed to building scalable web interfaces and robust backend services, ensuring secure data handling, seamless inter-module integration, and high system reliability. The ERP system improves operational efficiency, data visibility, and decision-making for organizations of varying scale.",
+    image: "https://images.ctfassets.net/lzny33ho1g45/1FzzuoyZ554G7ApEDxJZJJ/e8f00ca2c12848541ae01a2dee00f003/0aca5b23-e069-40b7-abce-a0fc846cd857.png",
+    tags: [
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Python",
+      "Django",
+      "FastAPI",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Role-Based Access Control",
+      "Authentication",
+      "Cloud Deployment",
+      "AWS"
+    ],
+    category: "web app"
+  },
+
+
+
+
+
+
 ];
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2018, text: "Worked as a software developer" },
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
