@@ -1,4 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-// base './' makes the build work on any GitHub Pages path (user site or project site)
-export default defineConfig({ plugins: [react()], base: './' })
+
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+    plugins: [react()],
+    base: "/manju-portfolio/",
+});

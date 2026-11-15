@@ -1,4 +1,104 @@
 export const projects = [
+
+
+    {
+        id: "partner-directory-vendor-management",
+        t: "Partner Directory & Vendor Management",
+        pl: ["Web"],
+        d: "Developed an enterprise partner and vendor management platform with onboarding, record management, advanced search, filtering, role-based access control and audit logging. Implemented User, Admin and Super Admin permissions, CSV/PDF exports, secure REST APIs and PostgreSQL-backed workflows. Contributed to authorization improvements, database optimization and cloud deployments.",
+        g: [
+            "Next.js",
+            "NestJS",
+            "PostgreSQL",
+            "REST APIs",
+            "RBAC",
+            "GCP",
+            "Vercel",
+            "Docker"
+        ],
+        l: "",
+        i: "projects/partner-directory.png",
+        r: "Enterprise vendor management with secure RBAC",
+        f: true
+    },
+    {
+        id: "automated-billing-platform",
+        t: "Automated Billing & Invoicing",
+        pl: ["Web"],
+        d: "Developed an enterprise billing solution using Dialogflow usage data and Google BigQuery. Implemented SLA-based invoicing, PDF generation, billing-status validation and idempotent processing to prevent duplicate invoices. Evaluated NetSuite REST API connectivity and incremental synchronization for financial integrations.",
+        g: [
+            "Python",
+            "BigQuery",
+            "Dialogflow CX",
+            "REST APIs",
+            "PDF Generation",
+            "GCP",
+            "NetSuite Integration"
+        ],
+        l: "",
+        i: "projects/billing-automation.png",
+        r: "Automated invoicing with duplicate-processing protection",
+        f: true
+    },
+    {
+        id: "ob2-school-platform",
+        t: "OB2 School Platform",
+        pl: ["Web", "Mobile"],
+        d: "Contributed to the development and maintenance of the OB2 education platform, delivering web, backend and mobile application functionality. Worked on API integrations, application improvements and deployment support to maintain reliable cross-platform experiences.",
+        g: [
+            "Web Development",
+            "Mobile Development",
+            "Backend APIs",
+            "REST APIs",
+            "Cloud Deployment"
+        ],
+        l: "",
+        i: "projects/ob2.png",
+        r: "Web, backend and mobile feature delivery",
+        f: false
+    },
+    {
+        id: "spigat-school-platform",
+        t: "Spigat School Platform",
+        pl: ["Web", "Mobile"],
+        d: "Delivered web, backend and mobile development contributions for the Spigat education platform. Supported application integration, feature implementation, deployment activities and production maintenance.",
+        g: [
+            "Web Development",
+            "Mobile Development",
+            "Backend APIs",
+            "REST APIs",
+            "Cloud Deployment"
+        ],
+        l: "",
+        i: "projects/spigat.png",
+        r: "Cross-platform education application development",
+        f: false
+    },
+    {
+        id: "observability-sre",
+        t: "Observability & SRE Automation",
+        pl: ["Web", "Mobile"],
+        d: "Led the development of an SRE automation platform using FastAPI and Next.js to simplify Datadog dashboard creation. Architected reusable widget builders and standardized more than 50 monitoring dashboards. Integrated AWS and Azure monitoring services, developed React Native SRE modules and automated repetitive configuration tasks, reducing dashboard creation time from hours to minutes.",
+        g: [
+            "Python",
+            "FastAPI",
+            "Next.js",
+            "Datadog",
+            "AWS",
+            "Azure",
+            "React Native",
+            "REST APIs",
+            "Automation"
+        ],
+        l: "",
+        i: "projects/observability-sre.png",
+        r: "50+ dashboards; creation reduced from hours to minutes",
+        f: true
+    },
+
+   
+   
+
  {
   "id": "upadhi-ai-job-portal",
   "t": "Upadhi.ai (Job Portal)",
@@ -370,27 +470,29 @@ export const projects = [
   "r": "",
   "f": false
  },
- {
-  "id": "observability-sre",
-  "t": "Observability & SRE Automation",
-  "pl": [
-   "Web",
-   "Mobile"
-  ],
-  "d": "Led a FastAPI and Next.js platform that turns Datadog dashboard creation into a guided workflow, with reusable widget builders, AWS and Azure integrations and React Native SRE modules.",
-  "g": [
-   "FastAPI",
-   "Next.js",
-   "Datadog",
-   "AWS",
-   "Azure",
-   "React Native"
-  ],
-  "l": "",
-  "i": "projects/observability-sre.svg",
-  "r": "Hours to minutes per dashboard, 50+ standardized",
-  "f": true
- },
+
+    {
+        id: "observability-sre",
+        t: "Observability & SRE Automation",
+        pl: ["Web", "Mobile"],
+        d: "Led development of an SRE automation platform using FastAPI and Next.js, simplifying Datadog dashboard creation through reusable widget builders and standardized templates. Integrated AWS and Azure services for cloud monitoring and developed React Native modules supporting SRE workflows. Automated repetitive monitoring configuration, reducing dashboard creation from hours to minutes.",
+        g: [
+            "Python",
+            "FastAPI",
+            "Next.js",
+            "Datadog",
+            "AWS",
+            "Azure",
+            "React Native",
+            "REST APIs",
+            "Automation"
+        ],
+        l: "",
+        i: "projects/observability-sre.svg",
+        r: "50+ standardized dashboards; hours reduced to minutes",
+        f: true
+    },
+
  {
   "id": "cryptotracker",
   "t": "CryptoTracker",

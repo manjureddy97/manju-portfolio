@@ -27,12 +27,58 @@ export const TECH = {
   'Tools and design': [t('Git', 'git/git-original'), t('GitHub', 'github/github-original'), t('Postman', 'postman/postman-original'), t('VS Code', 'vscode/vscode-original'), t('Figma', 'figma/figma-original'), t('Adobe XD', 'xd/xd-plain'), t('Xcode', 'xcode/xcode-original'), t('Android Studio', 'androidstudio/androidstudio-original'), t('Expo')],
 }
 export const EXPERIENCE = [
-  { co: 'Cognativ (One C1)', role: 'Senior Engineer', date: 'Jan 2026 to present', logo: '', now: true,
-    d: ['Own full-stack implementation, API development, database optimization, integration evaluation, deployments and production support for vendor management, billing and school management platforms.', 'Built a Partner Directory in Next.js, NestJS and PostgreSQL with onboarding, search and filtering, CSV and PDF exports, audit logging and User, Admin and Super Admin RBAC.', 'Strengthened API authorization by removing legacy authentication fallbacks, and improved billing reliability with idempotency, billing-status validation and safer scheduled jobs.', 'Automated SLA-based invoicing from Dialogflow usage data, BigQuery and PDF generation, and assessed NetSuite REST connectivity and incremental sync.', 'Containerized services for GCP and Vercel, and delivered web, backend and mobile features for the OB2 and Spigat school platforms.'],
-    s: ['Next.js', 'NestJS', 'PostgreSQL', 'GCP', 'BigQuery', 'Docker', 'RBAC'] },
-  { co: 'Coforge', role: 'Senior Engineer', date: 'Aug 2025 to Dec 2025', logo: 'https://www.greatplacetowork.in/great/api/assets/uploads/8860/logo/logo.jpg',
-    d: ['Led FastAPI and Next.js SRE dashboard automation, cutting dashboard creation from hours to minutes.', 'Architected reusable Datadog widget builders across 50+ dashboards, integrated AWS and Azure services and built React Native SRE modules.', 'Mentored engineers on coding standards and development practices.'],
-    s: ['FastAPI', 'Next.js', 'Datadog', 'AWS', 'Azure', 'React Native'] },
+
+  {
+    co: 'Cognativ (One C1)',
+    role: 'Senior Engineer',
+    date: 'Jan 2026 to Present',
+    logo: '',
+    now: true,
+    d: [
+      'Own architecture, full-stack development, REST APIs, database optimization, integrations, deployments and production support across enterprise platforms.',
+      'Partner Directory / Vendor Management: Delivered Next.js, NestJS and PostgreSQL capabilities including vendor onboarding, advanced filtering, CSV/PDF exports, audit trails and role-based access control.',
+      'Automated Billing Platform: Developed SLA-based invoicing workflows using Dialogflow usage data, BigQuery and PDF generation, with billing validation and idempotency to reduce duplicate processing.',
+      'Enterprise Integrations: Evaluated NetSuite REST connectivity and incremental synchronization, and strengthened backend authorization by removing legacy authentication fallbacks.',
+      'OB2 & Spigat School Platforms: Delivered web, backend and mobile features and supported deployment workflows.',
+      'Managed cloud deployments and containerized services across GCP and Vercel.'
+    ],
+    s: [
+      'Next.js',
+      'NestJS',
+      'PostgreSQL',
+      'GCP',
+      'BigQuery',
+      'Dialogflow',
+      'Docker',
+      'RBAC',
+      'REST APIs'
+    ]
+  },
+  {
+    co: 'Coforge',
+    role: 'Senior Engineer',
+    date: 'Aug 2025 to Dec 2025',
+    logo: 'https://www.greatplacetowork.in/great/api/assets/uploads/8860/logo/logo.jpg',
+    d: [
+      'SRE Dashboard Automation: Led development of a FastAPI and Next.js platform to automate monitoring dashboard creation, reducing setup from hours to minutes.',
+      'Datadog Monitoring Framework: Architected reusable dashboard and widget builders, standardizing more than 50 dashboards.',
+      'Cloud Monitoring Integrations: Integrated AWS and Azure monitoring services into operational dashboards.',
+      'SRE Mobile Modules: Developed React Native modules supporting site reliability workflows.',
+      'Technical Leadership: Mentored engineers, introduced reusable development practices and contributed to code quality standards.'
+    ],
+    s: [
+      'FastAPI',
+      'Next.js',
+      'Python',
+      'Datadog',
+      'AWS',
+      'Azure',
+      'React Native',
+      'Automation'
+    ]
+  },
+
+  
   { co: 'BDNT Labs', role: 'Senior Software Engineer', date: 'Mar 2024 to Aug 2025', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsO0DpltfzxawXnJJMIZjtWVaYECVq5maT9A&s',
     d: ['Built Upadhi.ai (React and Python) for 10K+ users and integrated OpenAI recommendations, improving relevance by 35%.', 'Architected Execera.ai AI governance with multi-agent orchestration, pgvector and Qdrant search across 1,000+ documents.', 'Developed the ISTS scholarship platform (Django and FastAPI) for 5K+ applicants with fraud detection and automated scoring.', 'Architected the Dhyeya Node.js and GraphQL backend for 20K+ concurrent users and cut PostgreSQL and MongoDB query times by 40%.', 'Integrated AWS Lambda, RDS, S3, SNS and SES, and established Jenkins and SonarQube practices that kept code-quality scores above 95%.'],
     s: ['OpenAI', 'RAG', 'pgvector', 'Qdrant', 'GraphQL', 'Django', 'FastAPI', 'AWS', 'Jenkins'] },
